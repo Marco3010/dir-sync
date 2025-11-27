@@ -22,9 +22,12 @@ High-performance, type-safe directory synchronization tool utilizing Python MP/M
 ## Installation & Usage
 
 1.  Open the Notebook in Google Colab:
-    [![Open In Colab](https://colab.research.google.com/drive/10105fx0sr0jFXR4WpjIiC1KroBDgbEtW#scrollTo=acb1e485)
+    [Open In Colab](https://colab.research.google.com/drive/10105fx0sr0jFXR4WpjIiC1KroBDgbEtW#scrollTo=acb1e485)
 
-2.  Configure source and destination paths in the configuration cell and run.
+2.  To execute the tool:
+    * Instantiate the main class with your source/destination paths.
+    * Execute plan generation (a list of pending operations: Copy, Update, Delete, Mkdir)
+    * Invoke the execution method to apply the Action Plan.
 
 ## Disclaimer
 
